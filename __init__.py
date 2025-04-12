@@ -9,7 +9,7 @@ def exercice(valeurs):
     resultat = 0
     for n in liste_nombres:
         resultat = resultat + n
-    return str(resultat) #1
+    return str(resultat)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
